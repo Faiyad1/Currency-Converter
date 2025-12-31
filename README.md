@@ -12,10 +12,21 @@ The University of Sydney
 - Achira Tantisuwannakul, The University of Sydney
 - Po-An Lin, The University of Sydney
 
-A Java command-line application for converting currencies, viewing exchange rate tables, and analyzing historical conversion data, built in Java with Gradle and JUnit.
+## Overview
+
+This Currency Converter is a command-line application that provides real-time currency conversion and exchange rate analysis. The application supports two user roles: Normal users who can convert currencies and view exchange rates, and Admin users who have additional privileges to manage the system's currency data.
+
+Key capabilities include:
+- Converting amounts between any supported currencies using the latest exchange rates
+- Displaying a 4x4 exchange rate matrix for popular currencies with trend indicators
+- Generating statistical summaries (average, median, min, max, standard deviation) for currency pairs over custom date ranges
+- Admin functionality for updating exchange rates and managing the popular currencies list
+
+Built with Java and Gradle, the application persists exchange rate history in CSV format, enabling comprehensive historical analysis of currency trends.
 
 ## Table of Contents
 
+- [Overview](#overview)
 - [Features](#features)
   - [All Users (Normal & Admin)](#all-users-normal--admin)
   - [Admin Only](#admin-only)
